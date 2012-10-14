@@ -1,4 +1,6 @@
 if ($var==$x){
 
  echo "mrigil it3adda";
+}else {
+	exit;
 }
