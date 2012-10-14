@@ -4,7 +4,7 @@
         fowardLine = 0;
 }
  
-$0 ~/^s.* AGT/ {
+$0 ~/^s.* AGT/ {okii
         sendLine ++ ;
 }
  
