@@ -16,6 +16,6 @@ $0 ~/^f.* RTR/ {
         fowardLine ++ ;
 }
  
-END {
+EEND {
         printf "cbr s:%d r:%d, r/s Ratio:%.4f, f:%d \n", sendLine, recvLine, (recvLine/sendLine*100),fowardLine;
 }
