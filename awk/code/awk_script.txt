@@ -14,8 +14,9 @@ $0 ~/^r.* AGT/ {
  
 $0 ~/^f.* RTR/ {
         fowardLine ++ ;
+		i++;
 }
  
-EEND {
+END {
         printf "cbr s:%d r:%d, r/s Ratio:%.4f, f:%d \n", sendLine, recvLine, (recvLine/sendLine*100),fowardLine;
 }
