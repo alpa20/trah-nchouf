@@ -1,6 +1,6 @@
 if ($var==$x){
 
- echo "mrigil it3adda";
+ echo "mrigil it3aDa";
 }else {
 	exit;
 }
